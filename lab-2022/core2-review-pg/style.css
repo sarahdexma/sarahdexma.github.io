@@ -3,7 +3,6 @@ body{
     font-family: monospace; 
 }
 
-
 ul {
     list-style: none;
     margin-left: 0;
@@ -55,10 +54,3 @@ a:link {
     position: relative;
     left: 80px; 
   }
-
-  /* .img{
-    position:absolute; 
-    width:50px; 
-
-    
-  } */
