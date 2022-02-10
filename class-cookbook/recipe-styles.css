@@ -3,13 +3,13 @@ body{
     /* background-color: rgb(255, 91, 15); */
     /* margin: 100px;  */
 }
+
 .img{
     position: absolute;
     width: 1500px;
     left: -10px;
     top: -50px; 
 } 
-
 
 #description{
     width: 290px; 
