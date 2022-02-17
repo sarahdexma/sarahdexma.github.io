@@ -1,0 +1,29 @@
+body{
+    padding: 100px;
+
+}
+
+#everything{
+    width: 70%;
+
+}
+
+.columns{
+    width:13%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.sketching{
+    width: 30%;
+}
+
+.enviro{
+    width: 30%;
+}
+
+.final{
+    width: 30%;
+}
