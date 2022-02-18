@@ -1,29 +1,57 @@
 body{
-    padding: 100px;
+    padding: 4%;
+    font-family: 'apfel'; 
+}
 
+@font-face{
+    font-family: 'apfel';
+    src: url(fonts/ApfelGrotezk-Fett.woff2);
 }
 
 #everything{
     width: 70%;
-
+    margin: 0%;
 }
 
-.columns{
-    width:13%;
-    height:auto;
+.grid{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    width: 130%;
+    padding: 5%;
 }
 
+.columns{ 
+    flex: 33%;
+    max-width: 33%;
+    padding: 2px;
+}
+
+.columns img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
 .sketching{
-    width: 30%;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    padding: 2px;
 }
 
 .enviro{
-    width: 30%;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    padding: 2px;
 }
 
 .final{
-    width: 30%;
+    width: 100%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    padding: 2px;
 }
