@@ -1,0 +1,112 @@
+
+/* All of the styles inside this media query will only apply IF the screen is _____ than ___px */
+@media screen and (max-width: 480px) {
+    body {
+        width: 90%;
+        background-color: cornflowerblue;
+        font-family: 'Recursive', monospace;
+        font-variation-settings: 'mono' 0, 'casl' 0, 'wght' 300, 'slnt' 0, 'crsv' 0; 
+    }
+    
+    h1{
+    
+    }
+    
+    h2{
+    
+    }
+    
+    p{
+            
+    }
+}
+
+/* All of the styles inside this media query will only apply IF the screen is _____ than ___px. */
+@media screen and (min-width: 481px) {
+    body {
+        width: 90%;
+        background-color: cornflowerblue;
+        font-family: 'Recursive', monospace;
+        font-variation-settings: 'mono' 0.24, 'casl' 0.23, 'wght' 464, 'slnt' -4.4, 'crsv' 0; 
+    }
+
+    h1{
+
+    }
+
+    h2{
+
+    }
+
+    p{
+
+    }
+}
+
+/* All of the styles inside this media query will only apply IF the screen is _____ than ___px. */
+@media screen and (min-width: 768px) {
+    body {
+        width: 90%;
+        background-color: cornflowerblue;
+        font-family: 'Recursive', monospace;
+        font-variation-settings: 'mono' 0.52, 'casl' 0.52, 'wght' 658, 'slnt' -7.2, 'crsv' 0; 
+    }
+
+    h1{
+
+    }
+
+    h2{
+
+    }
+
+    p{
+
+    }
+}
+
+
+
+/* All of the styles inside this media query will only apply IF the screen is _____ than ___px. */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 90%;
+        background-color: cornflowerblue;
+        font-family: 'Recursive', monospace;
+        font-variation-settings: 'mono' 0.77, 'casl' 0.77, 'wght' 836, 'slnt' -11.5, 'crsv' 0.5; 
+    }
+
+    h1{
+
+    }
+
+    h2{
+
+    }
+
+    p{
+        
+    }
+}
+
+/* All of the styles inside this media query will only apply IF the screen is _____ than ___px. */
+@media screen and (min-width: 1200px) {
+    body {
+        width: 90%;
+        background-color: cornflowerblue;
+        font-family: 'Recursive', monospace;
+        font-variation-settings: 'mono' 1, 'casl' 1, 'wght' 1000, 'slnt' -15, 'crsv' 0; 
+    }
+    
+    h1{
+    
+    }
+    
+    h2{
+    
+    }
+    
+    p{
+            
+    }
+}
