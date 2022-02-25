@@ -7,19 +7,25 @@
         color:deeppink; 
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0, 'casl' 0, 'wght' 300, 'slnt' 0, 'crsv' 0; 
-        padding: 5%;
+        /* padding: 5%; */
+        margin: 100px; 
+
     }
     
     h1{
         font-size: 120px;
+        width: 50%;
+
     }
     
     h2{
-    
+        color:mediumpurple;
+
     }
     
     p{
-            
+        width: 50%;
+
     }
 }
 
@@ -31,19 +37,25 @@
         color:plum;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.24, 'casl' 0.23, 'wght' 464, 'slnt' -4.4, 'crsv' 0; 
-        padding: 8%;
+        /* padding: 8%; */
+        margin: 100px; 
+
     }
 
     h1{
         font-size: 100px;
+        width: 60%;
+
 
     }
 
     h2{
+        color:mediumblue;
 
     }
 
     p{
+        width: 60%;
 
     }
 }
@@ -56,20 +68,24 @@
         color:royalblue;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.52, 'casl' 0.52, 'wght' 658, 'slnt' -7.2, 'crsv' 0; 
-        padding: 10%;
+        /* padding: 10%; */
+        margin: 100px; 
 
     }
 
     h1{
         font-size: 80px;
+        width: 70%;
 
     }
 
     h2{
+        color:orange;
 
     }
 
     p{
+        width: 70%;
 
     }
 }
@@ -84,21 +100,25 @@
         color:orangered; 
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.77, 'casl' 0.77, 'wght' 836, 'slnt' -11.5, 'crsv' 0.5; 
-        padding: 14%;
+        /* padding: 14%; */
+        margin: 100px; 
 
     }
 
     h1{
         font-size: 60px;
+        width: 80%;
 
     }
 
     h2{
+        color:cornflowerblue;
 
     }
 
     p{
-        
+        width: 80%;
+
     }
 }
 
@@ -110,20 +130,22 @@
         color: ivory;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 1, 'casl' 1, 'wght' 1000, 'slnt' -15, 'crsv' 0; 
-        padding: 20%;
+        /* padding: 20%; */
+        margin: 100px; 
 
     }
     
     h1{
         font-size: 40px;
+        width: 90%;
 
     }
     
     h2{
-    
+        color:lightseagreen;
     }
     
     p{
-            
+        width: 90%;
     }
 }
