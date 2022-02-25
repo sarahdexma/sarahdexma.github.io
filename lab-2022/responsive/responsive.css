@@ -8,7 +8,8 @@
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0, 'casl' 0, 'wght' 300, 'slnt' 0, 'crsv' 0; 
         /* padding: 5%; */
-        margin: 100px; 
+        padding: 100px; 
+        border: 10px solid deepskyblue;
 
     }
     
@@ -25,6 +26,7 @@
     
     p{
         width: 50%;
+        line-height: 15px;
 
     }
 }
@@ -38,8 +40,8 @@
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.24, 'casl' 0.23, 'wght' 464, 'slnt' -4.4, 'crsv' 0; 
         /* padding: 8%; */
-        margin: 100px; 
-
+        padding: 100px; 
+        border: 10px dashed palevioletred;
     }
 
     h1{
@@ -56,6 +58,7 @@
 
     p{
         width: 60%;
+        line-height: 20px;
 
     }
 }
@@ -69,7 +72,8 @@
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.52, 'casl' 0.52, 'wght' 658, 'slnt' -7.2, 'crsv' 0; 
         /* padding: 10%; */
-        margin: 100px; 
+        padding: 100px; 
+        border: 10px dotted dodgerblue;
 
     }
 
@@ -86,6 +90,7 @@
 
     p{
         width: 70%;
+        line-height: 25px;
 
     }
 }
@@ -101,7 +106,8 @@
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.77, 'casl' 0.77, 'wght' 836, 'slnt' -11.5, 'crsv' 0.5; 
         /* padding: 14%; */
-        margin: 100px; 
+        padding: 100px; 
+        border: 10px solid ora;
 
     }
 
@@ -118,6 +124,7 @@
 
     p{
         width: 80%;
+        line-height: 30px;
 
     }
 }
@@ -131,7 +138,8 @@
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 1, 'casl' 1, 'wght' 1000, 'slnt' -15, 'crsv' 0; 
         /* padding: 20%; */
-        margin: 100px; 
+        padding: 100px; 
+        border: 10px dashed ivory;
 
     }
     
@@ -147,5 +155,6 @@
     
     p{
         width: 90%;
+        line-height: 35px;
     }
 }
