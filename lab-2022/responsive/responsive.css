@@ -3,13 +3,15 @@
 @media screen and (max-width: 480px) {
     body {
         width: 90%;
-        background-color: cornflowerblue;
+        background-color:gold;
+        color:deeppink; 
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0, 'casl' 0, 'wght' 300, 'slnt' 0, 'crsv' 0; 
+        padding: 5%;
     }
     
     h1{
-    
+        font-size: 120px;
     }
     
     h2{
@@ -26,11 +28,14 @@
     body {
         width: 90%;
         background-color: cornflowerblue;
+        color:plum;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.24, 'casl' 0.23, 'wght' 464, 'slnt' -4.4, 'crsv' 0; 
+        padding: 8%;
     }
 
     h1{
+        font-size: 100px;
 
     }
 
@@ -47,12 +52,16 @@
 @media screen and (min-width: 768px) {
     body {
         width: 90%;
-        background-color: cornflowerblue;
+        background-color:lightcoral;
+        color:royalblue;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.52, 'casl' 0.52, 'wght' 658, 'slnt' -7.2, 'crsv' 0; 
+        padding: 10%;
+
     }
 
     h1{
+        font-size: 80px;
 
     }
 
@@ -71,12 +80,16 @@
 @media screen and (min-width: 1024px) {
     body {
         width: 90%;
-        background-color: cornflowerblue;
+        background-color:yellowgreen;
+        color:orangered; 
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 0.77, 'casl' 0.77, 'wght' 836, 'slnt' -11.5, 'crsv' 0.5; 
+        padding: 14%;
+
     }
 
     h1{
+        font-size: 60px;
 
     }
 
@@ -93,13 +106,17 @@
 @media screen and (min-width: 1200px) {
     body {
         width: 90%;
-        background-color: cornflowerblue;
+        background-color:darkslateblue;
+        color: ivory;
         font-family: 'Recursive', monospace;
         font-variation-settings: 'mono' 1, 'casl' 1, 'wght' 1000, 'slnt' -15, 'crsv' 0; 
+        padding: 20%;
+
     }
     
     h1{
-    
+        font-size: 40px;
+
     }
     
     h2{
