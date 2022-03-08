@@ -61,7 +61,7 @@ body{
 h1{
     color: white;
     font-size: 115px;
-    position: absolute;
+    position: fixed;
     top: 10px; 
     line-height: 100px;
     left: 100px;
@@ -125,7 +125,7 @@ img{
 }
 
 .timeline{
-    background-color:midnightblue;
+    background-color:rgb(0, 0, 151);
     color: white;
     /* margin: 50px; */
     padding: 100px; 
@@ -222,4 +222,8 @@ button{
   
    button:hover:before {
     content: "Please note that the letter was not addressed to anyone in particular."
+  }
+
+  span:hover{
+    color:tomato;
   }
