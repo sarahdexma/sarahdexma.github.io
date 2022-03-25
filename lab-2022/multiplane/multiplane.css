@@ -1,0 +1,18 @@
+body{
+    padding: none;
+    margin: none;
+}
+
+#brown{
+    height: 101vh; 
+    padding: -10px;
+    margin: -10px;
+    position: absolute; 
+}
+
+#back{
+    height: 101vh; 
+    padding: -10px;
+    margin: -10px;
+    position: fixed;
+}
