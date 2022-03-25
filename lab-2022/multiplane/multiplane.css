@@ -1,18 +1,117 @@
 body{
     padding: none;
     margin: none;
+    color: cornflowerblue;
+    font-family: karla;
 }
 
 #brown{
     height: 101vh; 
     padding: -10px;
     margin: -10px;
+    padding-top: -10px;
     position: absolute; 
 }
 
 #back{
     height: 101vh; 
     padding: -10px;
+    padding-top: -10px;
     margin: -10px;
     position: fixed;
+}
+
+@font-face {
+    font-family: wispy;
+    src: url(type/BNWispy.woff2);
+  }
+
+
+#title{
+    height: 25vh;
+    position: absolute;
+    top:10rem;
+    left: 23rem;
+}
+
+h1{
+    font-family: karla;
+    font-size: 3em;
+    color:white;
+}
+
+h2{
+    font-family: karla;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: white;
+}
+
+#intro{
+    position: absolute;
+    top: 17rem;
+    left: 32rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2.5em;
+}
+
+a:hover{
+    color:gold
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+#diagram{
+    position: absolute;
+    top: 5rem;
+    left: 150rem;
+    border-radius:2rem;
+    height: 75vh;
+}
+
+.col1{
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    background-color: white;
+    border-radius: 2rem;
+    padding:2em;
+}
+
+.col2{
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    left: 20rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding:2em;
+}
+
+.row2{
+    position:absolute;
+    top: 25rem;
+    left: 105rem;
+}
+
+.row1{
+    position:absolute;
+    top: 5rem;
+    left: 105rem; 
+}
+
+#button{
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    background-color: orangered;
+    border-radius: 2rem;
+    font-size: 3rem;
 }
