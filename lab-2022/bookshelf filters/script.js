@@ -78,9 +78,9 @@ function showBook(book, div) {
   bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; //
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
-  bookDetail.getElementsByClassName("more")[0].href = book.fields.more;
-  bookDetail.getElementsByClassName("cover-image")[0].src =
-    book.fields.cover_image[0].url;
+  bookDetail.getElementsByClassName("author")[0].href = book.fields.author;
+  bookDetail.getElementsByClassName("cover")[0].src =
+    book.fields.cover[0].url;
 
   // remove the .active class from any book spines that have it...
   const shelf = document.getElementById("shelf");
