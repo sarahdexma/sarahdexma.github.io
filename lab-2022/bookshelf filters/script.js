@@ -75,7 +75,7 @@ function showBook(book, div) {
   const bookDetail = document.getElementById("book-detail");
 
   // populate the template with the data in the provided book
-  bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; //
+  bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; 
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
   bookDetail.getElementsByClassName("author")[0].href = book.fields.author;

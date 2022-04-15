@@ -1,5 +1,5 @@
 body{
-  background:rgb(255, 252, 241);
+  background: ivory;
   font-family: playfair display;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 3rem;
@@ -31,7 +31,7 @@ display: none !important;
 
 /* what do you want your shelf to look like? play with line 27 if you want it to appear as a line */
 .shelf {
-border-bottom: 3px solid rgb(231, 55, 11); 
+border-bottom: 400px solid rgb(255, 72, 26); 
 margin-bottom: 2em;   
 margin-top: -1em;
 margin-right: 1em;
@@ -43,19 +43,17 @@ align-items: flex-end;
 .shelf .book-spine {
 background:cornflowerblue;
 color: ivory;
-height: 550px;
-width: 290px;
-padding: 20px;
-margin-bottom: 2px;
-margin-right: 2px; 
-height: 280px;
-width: 50px; 
-padding: 10px 0px; 
+margin-bottom: 5px;
+margin-right: 5px; 
+height: 290px;
+width: 80px; 
+padding: 10px; 
 transform: rotate(180deg);
 writing-mode: vertical-lr;
 line-height: 30px;
-font-size: 16px;
-cursor: pointer;
+font-size: 1.8rem;
+cursor: grabbing;
+
 }
 
 
@@ -65,8 +63,8 @@ color: white;
 }
 
 .shelf .book-spine:hover {
-background: rgb(255, 245, 221);
-color: rgb(31, 31, 31);
+background: rgb(189, 255, 6);
+color: rgb(48, 44, 44);
 }
 
 .book-detail {
