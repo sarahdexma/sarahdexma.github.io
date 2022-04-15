@@ -1,15 +1,15 @@
 body{
   background:rgb(255, 252, 241);
   font-family: playfair display;
-  font-family: 'Raleway';
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 3rem;
   margin-left: 1em;
   margin-top: -1em;
 }
 
 h1{
-  font-size: 6.5rem;
-  font-family: playfair display;
+  font-size: 5.5rem;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 300;
   font-style: normal;
   color:rgb(31, 31, 31);
@@ -18,7 +18,7 @@ h1{
 h2 {
   font-size: 5rem;
   line-height: 1.2em;
-  font-family: playfair display;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
   font-style: normal;
   color: rgb(31, 31, 31);
@@ -31,20 +31,21 @@ display: none !important;
 
 /* what do you want your shelf to look like? play with line 27 if you want it to appear as a line */
 .shelf {
-border-bottom: 10px solid rgb(31, 31, 31); 
+border-bottom: 3px solid rgb(231, 55, 11); 
 margin-bottom: 2em;   
 margin-top: -1em;
+margin-right: 1em;
 display: flex;
 align-items: flex-end;
 }
 
 /* styling the books on the shelf- play with lines 38-42 or delete them and comment in lines 43-47 if you want thin spines of books */
 .shelf .book-spine {
-background: rgb(255, 142, 238);
-color: rgb(31, 31, 31);
-height: 250px;
+background:cornflowerblue;
+color: ivory;
+height: 550px;
 width: 290px;
-padding: 10px;
+padding: 20px;
 margin-bottom: 2px;
 margin-right: 2px; 
 height: 280px;
