@@ -31,7 +31,7 @@ display: none !important;
 
 /* what do you want your shelf to look like? play with line 27 if you want it to appear as a line */
 .shelf {
-border-bottom: 400px solid rgb(255, 72, 26); 
+border-bottom: 3px solid rgb(255, 72, 26); 
 margin-bottom: 2em;   
 margin-top: -1em;
 margin-right: 1em;
