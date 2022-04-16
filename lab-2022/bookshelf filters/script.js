@@ -1,4 +1,3 @@
-
 console.log("Hello bookshelf");
 
 var Airtable = require("airtable");
@@ -44,6 +43,7 @@ function gotAllBooks(err) {
 }
 
 ////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 
 // create the book-spines on the shelf
 function showBooks() {
@@ -78,9 +78,8 @@ function showBook(book, div) {
   bookDetail.getElementsByClassName("title")[0].innerText = book.fields.title; 
   bookDetail.getElementsByClassName("description")[0].innerText =
     book.fields.description;
-  bookDetail.getElementsByClassName("author")[0].href = book.fields.author;
-  bookDetail.getElementsByClassName("cover")[0].src =
-    book.fields.cover[0].url;
+  bookDetail.getElementsByClassName("cover-image")[0].src =
+    book.fields.cover_image[0].url;
 
   // remove the .active class from any book spines that have it...
   const shelf = document.getElementById("shelf");
@@ -95,48 +94,3 @@ function showBook(book, div) {
   // but its not hurting to do it more than once
   bookDetail.classList.remove("hidden");
 }
-
-
-
-
-// PART 1.1 > post list of book titles to site 
-// loop through the books and console log the data
-// function consoleLogBooks() {
-//     console.log("consoleLogBooks()");
-//     books.forEach((book) =>{
-//         console.log("Book:", book);
-//     });
-// }
-
-// function showBooks(){
-//     console.log("showBooks()");
-//     books.forEach((book) =>{
-//         const h2 = document.createElement("h2");
-//         h2.innerText = book.fields.title;
-//         document.body.appendChild(h2);
-//     });
-// }
-
-
-
-
-// PART 1.0 > Airtable boiler plate JS 
-// base('Table 1').select({
-//     // Selecting the first 10 records in Grid view:
-//     maxRecords: 10,
-//     view: "Grid view"
-// }).eachPage(function page(records, fetchNextPage) {
-//     // This function (`page`) will get called for each page of records.
-
-//     records.forEach(function(record) {
-//         console.log('Retrieved', record.get('Name'));
-//     });
-
-//     // To fetch the next page of records, call `fetchNextPage`.
-//     // If there are more records, `page` will get called again.
-//     // If there are no more records, `done` will get called.
-//     fetchNextPage();
-
-// }, function done(err) {
-//     if (err) { console.error(err); return; }
-// });
