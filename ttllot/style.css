@@ -1,0 +1,45 @@
+body{
+    background-color:whitesmoke;
+    color:rgb(19, 18, 18);
+    padding: 0rem 3rem 3rem 3rem;
+    cursor: none;
+}
+
+#title{
+    /* background-color: cornflowerblue; */
+    height: 2.8rem;
+    width: 200vh;
+    text-align: center;
+    position: fixed;
+    left: -5rem;
+}
+
+
+.container{
+    cursor: url('cursor/ttllot-08.png'), pointer;
+}
+
+h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    border: 0.1rem solid orchid;
+    flex-wrap: wrap;
+
+}
+
+.tag{
+    font-size: 1rem;
+    border-radius: 1.5em;
+    padding: 0.2em 0.6em;
+    cursor: url('cursor/ttllot-08.png'), pointer;    transition: 0.2s ease-in-out;
+}
