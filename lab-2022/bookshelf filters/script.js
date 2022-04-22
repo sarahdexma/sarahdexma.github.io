@@ -3,7 +3,6 @@ console.log("Hello bookshelf");
 var Airtable = require("airtable");
 console.log(Airtable);
 
-//use airtable library 
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keywYod1DYUK31Or3'}).base('appp0WO9z9UCaxQOr');
 
