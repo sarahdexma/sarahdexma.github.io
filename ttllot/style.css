@@ -42,4 +42,5 @@ h2{
     border-radius: 1.5em;
     padding: 0.2em 0.6em;
     cursor: url('cursor/ttllot-08.png'), pointer;    transition: 0.2s ease-in-out;
+    justify-content: flex-end;
 }
