@@ -49,7 +49,7 @@ body{
     /* background-color: orangered; */
     display: flex;
     flex-wrap: wrap;
-    top: 28em;
+    bottom: 2em;
     margin: 1.5em;;
 }
 
