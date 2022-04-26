@@ -1,0 +1,79 @@
+body{
+    background-color: gold;
+    padding-bottom: 3em;
+    height: 125vh;
+}
+
+#title{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    font-size: 4em;
+    background-color: pink;
+
+}
+
+#titleback{
+    background-color: white;
+    width: 89em;
+    height: 4em;
+    position:fixed;
+    z-index: 99;
+    top: 0;
+}
+
+#liltitle{
+    position: fixed;
+    left: 40%;
+    top: 3%;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background-color: pink;
+    /* font-family: pragmatapro-fraktur, serif;
+    font-weight: 700;
+    font-style: normal; */
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 99;
+}
+
+.navbar{
+    position: fixed;
+    line-height: 1.5em;
+    width: 30em;
+    background-color: orangered;
+    display: flex;
+    flex-wrap: wrap;
+    top: 33em;
+    margin: 1.5em;;
+}
+
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.tag{
+    border: rebeccapurple 0.1em solid;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.1em .5em 0.1em .5em;
+    margin: 0.2em 0.1em;
+
+}
+
+.grid{
+    position: absolute;
+    left: 20em;
+    top: 4em;
+}
+.gallery{
+    width: 7em;
+    height: 9em;
+    object-fit: cover;
+    padding: .2em;
+}
