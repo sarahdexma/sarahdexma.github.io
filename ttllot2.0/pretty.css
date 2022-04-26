@@ -1,7 +1,11 @@
 body{
-    background-color: gold;
+    /* background-color: gold; */
+    background-color: white;
     padding-bottom: 3em;
-    height: 125vh;
+    height: 150vh;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #title{
@@ -28,7 +32,7 @@ body{
     top: 3%;
     font-size: 0.8em;
     text-transform: uppercase;
-    background-color: pink;
+    /* background-color: pink; */
     /* font-family: pragmatapro-fraktur, serif;
     font-weight: 700;
     font-style: normal; */
@@ -41,11 +45,11 @@ body{
 .navbar{
     position: fixed;
     line-height: 1.5em;
-    width: 30em;
-    background-color: orangered;
+    width: 32em;
+    /* background-color: orangered; */
     display: flex;
     flex-wrap: wrap;
-    top: 33em;
+    top: 28em;
     margin: 1.5em;;
 }
 
@@ -57,7 +61,8 @@ h2{
 }
 
 .tag{
-    border: rebeccapurple 0.1em solid;
+    border: black 0.1em solid;
+    background-color: white;
     border-radius: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -76,4 +81,31 @@ h2{
     height: 9em;
     object-fit: cover;
     padding: .2em;
+}
+
+a:link{
+    color:black;
+}
+
+a:hover{
+    color: orangered;
+}
+
+a:visited{
+    color:black;
+}
+
+a:active{
+    color:black;
+}
+
+/* #everything:hover{
+    border:none;
+    background-color: rgb(15, 179, 43);
+} */
+
+.tag:hover{
+    background-color: orangered;
+    border: orangered 0.1em solid;
+    color:white;
 }
