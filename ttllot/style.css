@@ -15,8 +15,13 @@ body{
 }
 
 
-.container{
-    cursor: url('cursor/ttllot-08.png'), pointer;
+/* body {
+    cursor: url('/ttllot/cursor/ttllot-02.png'), pointer;
+} */
+
+.cursor {
+    height: 10%;
+    width: 10%;
 }
 
 h1{

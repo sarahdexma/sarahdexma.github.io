@@ -91,7 +91,11 @@ a:link{
 a:hover{
     color: orangered;
     text-decoration: none;
+    cursor: none;
+}
 
+#liltitle a:hover{
+    color: orangered;
 }
 
 a:visited{
@@ -117,4 +121,23 @@ a:active{
     color:white;
     text-decoration: none;
 
+}
+
+.cursor {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.cursorImage {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    cursor: none;
 }

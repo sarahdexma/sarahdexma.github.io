@@ -72,3 +72,14 @@ document.querySelector("#all").addEventListener("click", () => {
       view: "text only"
     }).eachPage(gotPageOfBooks, gotAllBooks);
   });
+
+  // Cursor
+let mouseCusor = document.querySelector(".cursor");
+
+window.addEventListener("mousemove", cursor);
+
+function cusror(e) {
+  mouseCusor.getElementsByClassName.top = e.pageY + "px";
+  mouseCusor.getElementsByClassName.left = e.pageX + "px";
+  
+}
