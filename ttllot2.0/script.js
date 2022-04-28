@@ -8,3 +8,6 @@ function cursor(e) {
     mouseCursor.style.top = e.pageY + "px";
     mouseCursor.style.left = e.pageX + "px";
 }
+
+var vid = document.getElementById("bkgvid");
+vid.playbackRate = 0.5;

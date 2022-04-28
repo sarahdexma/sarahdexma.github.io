@@ -8,13 +8,21 @@ body{
     font-style: normal;
 }
 
+#bkgvid{
+    position: fixed;
+    right: -1em;
+    bottom: 0;
+    width: 115em;
+    top: 0em;
+}
+
+
 #title{
     position: absolute;
-    left: 20%;
-    top: 40%;
+    left: 18%;
+    top: 43%;
     font-size: 4em;
-    background-color: pink;
-
+    color: white;
 }
 
 #titleback{
@@ -108,6 +116,22 @@ a:active{
     color:black;
     text-decoration: none;
 
+}
+
+#title a:link{
+    color: white;
+}
+
+#title a:hover{
+    color: orangered;
+}
+
+#title a:visited{
+    color: white;
+}
+
+#title a:active{
+    color: white;
 }
 
 /* #everything:hover{
