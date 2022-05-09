@@ -11,3 +11,15 @@ function cursor(e) {
 
 var vid = document.getElementById("bkgvid");
 vid.playbackRate = 0.5;
+
+$(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+       $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
