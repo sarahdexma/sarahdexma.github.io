@@ -1,0 +1,14 @@
+body{
+    background-color:mediumblue;
+}
+
+#everything{
+    background-color: hotpink;
+    border-radius: 2em;
+    margin: 2em;
+    height: 46em;
+}
+
+.gallery{
+    height: 20em;
+}
