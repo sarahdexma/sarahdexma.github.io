@@ -1,0 +1,127 @@
+body{
+  background-color:white;
+  /* animation: mymove 5s infinite; */
+
+}
+
+#everything{
+  background-color: hotpink;
+  border-radius: 2em;
+  margin: 2em;
+  height: 46em;
+}
+
+.gallery{
+  height: 20em;
+}
+
+#dug{
+  padding: 1em;
+}
+
+* { 
+  color:hotpink; 
+  text-decoration: none;
+}
+
+* :hover{ 
+  color:mediumblue; 
+  text-decoration: none;
+}
+
+h2{
+  font-family: tuppence, serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 10em;
+  position: absolute;
+  padding: 1em;
+  top: -0.2em;
+  background-color: none;
+}
+
+#typing{
+  position: absolute;
+  padding: 10em;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  top:-2em;
+  left: -4.8em;
+  font-size: 2em;
+  
+}
+
+#landing{
+  background-color: white;
+  border-radius: 2em;
+  /* animation: mymove 60s linear 10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+  border-radius: 2em;
+  margin: 2em;
+  height: 46em;
+}
+
+a:link{
+  text-decoration: none;
+  color:hotpink;
+}
+
+a:hover{
+  text-decoration: none;
+  color:mediumblue;
+}
+
+
+@keyframes mymove {
+  0% {
+    background: hotpink;
+  }
+  25% {
+    background: orchid;
+  }
+  50% {
+    background: blue;
+  }
+  75% {
+    background: pink;
+  }
+  100% {
+    background:skyblue;
+  }
+
+}
+
+/* @-webkit-keyframes move {
+  from {-webkit-transform: translateX(-400px);}
+  to {-webkit-transform: translateX(2000px);}
+} */
+
+
+/* the typing animation */
+
+/* body {
+  background-color: #120439;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+} */
+
+/* h1 {
+  font-size: 5em;
+  color: white;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+} */

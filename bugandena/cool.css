@@ -31,6 +31,7 @@ h2{
     position: absolute;
     padding: 1em;
     top: -0.2em;
+    background-color: none;
 }
 
 #typing{
@@ -44,8 +45,19 @@ h2{
     font-size: 2em;
 }
 
+#landing{
+    background-color: pink;
+    animation: move 60s linear 10s;
+    border-radius: 2em;
+    margin: 2em;
+    height: 46em;
+}
 
- 
+
+/* @-webkit-keyframes move {
+    from {-webkit-transform: translateX(-400px);}
+    to {-webkit-transform: translateX(2000px);}
+  } */
 
 
 /* the typing animation */
