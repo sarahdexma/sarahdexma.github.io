@@ -1,6 +1,6 @@
 // $(document).ready(function() {alert("[hello hello]"); })
 
-$(document).ready(function() {$("#dug").draggable(); })
+$(document).ready(function() {$(".gallery").draggable(); })
 
 //animation 1.0
 
