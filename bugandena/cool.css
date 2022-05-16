@@ -7,10 +7,21 @@ body{
     border-radius: 2em;
     margin: 2em;
     height: 46em;
+    width: 45em;
+}
+
+p{
+  position: absolute;
+  right: 15em;
+  color: white;
+  top: 20em;
+  z-index: -1;
 }
 
 .gallery{
-    height: 5em;
+    height: 5.2em;
+    padding: none;
+  
 }
 
 #dug{
