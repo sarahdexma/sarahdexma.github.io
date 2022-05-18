@@ -1,9 +1,9 @@
 body{
-    background-color:mediumblue;
+    background-color:pink;
 }
 
 #everything{
-    background-color: hotpink;
+    background-color: orangered;
     border-radius: 2em;
     margin: 2em;
     height: 46em;
@@ -16,7 +16,9 @@ p{
   color: white;
   top: 20em;
   z-index: -1;
-}
+  font-family: tuppence, serif;
+  font-weight: 700;
+  font-style: normal;}
 
 .gallery{
     height: 5.2em;
